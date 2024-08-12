@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #1F1F1F;
+    width: auto;
+    height: 480px;
+}
+
+.container-footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    margin-left: 13px;
+    gap: 35px;
+    color: white;
+}
+
+.Logo{
+    position: relative;
+    left: 5px;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.information{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    position: relative;
+    right: 31px;
+    bottom: 160px;
+}
+
+.information h2{
+    font-size: 17px;
+}
+
+.descricao{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+    left: 18px;
+}
+
+.descricao li{
+    color: #F5F5F5;
+}
+
+.ajustar-informacoes{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 80px;
+    margin-right: 35px;
+}
+
+.linha{
+    position: relative;
+    bottom: 100px;
+    width: 1200;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+}
+
+.Digital{
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    left: 20px;
+    bottom: 112px;
+    color: rgba(255, 255, 255, 0.753);
+}

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100%;
+  }
+
+  .container{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    margin-left: 68px;
+    align-items: center;
+    margin-top: 4px;
+  }
+
+  .container .pesquisar input{
+    width: 550px;
+    background-color: #F5F5F5;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    right: 20px;
+    font-size: 18px;
+  }
+
+  .container .iconePesquisa{
+    position: relative;
+    right: 95px;
+
+
+  }
+
+  .container .cadastro{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items:center;
+    gap: 30px;
+    position: relative;
+    right: 70px;
+
+  }
+
+  .cadastro li p{
+    width: 100px;
+    font-size: 17px;
+    color: #474747;
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+  }
+
+  button{
+    position: relative;
+    right: 20px;
+    padding: 10px 35px;
+    background-color: #C92071;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: #420963;
+  }
+
+  .carroTopo{
+    display: flex;
+  }
+
+  .carroTopo > div{
+    width: 20px;
+    position: relative;
+    bottom: 5px;
+    right: 8px;
+    background-color:#ec0877;
+    border-radius: 10px;
+  }
+
+  .carroTopo > div p{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    top: 3px;
+  }
+
+  .navagacao{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 72px;
+    gap: 10px;
+  }
+
+  .navagacao li{
+    list-style: none;
+    margin-left: 20px;
+    font-size:19px;
+  }
+
+  .navagacao li a{
+    text-decoration: none;
+    color: #C92071;
+    cursor: pointer;
+  }
+
+  .navagacao li a:hover{
+    border-bottom: 2px solid #C92071 ;
+    font-weight: bold;
+  }
+

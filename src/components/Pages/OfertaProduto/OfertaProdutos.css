@@ -1,0 +1,251 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.destaque{
+  font-size: 17px;
+  font-weight: bold;
+  color:   #474747;
+}
+
+.container_flexx{
+  background-color: rgb(249, 248, 254);
+  width: 97%;
+  height: 800px;
+  display: flex;
+  position: relative;
+  left: 40px;
+}
+
+.containerr{
+  margin: 0 auto;
+  width: 630px;
+  height: 660px;
+  position: relative;
+  bottom: 100px;
+  right: 10px;
+  margin-top: 150px;
+  right: 20px;
+}
+
+.image_0{
+  background-color: rgb(226, 227, 255);
+  padding:4px;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+
+}
+
+.image_1{
+  background-color:rgb(255, 232, 188);
+  padding:4px;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+}
+
+.image_2{
+  background-color:rgb(255, 192, 188);
+  padding:4px;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+}
+
+.image_3{
+  background-color:rgb(222, 198, 153);
+  padding:4px;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+}
+
+.image_4{
+  background-color:rgb(232, 223, 207);
+  padding:4px;
+  position: relative;
+  bottom: 40px;
+  right: 10px;
+}
+
+.container_lado_image{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 90px;
+  gap: 5px;
+  right: 45px;
+}
+
+.avaliacao0{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  right: 6px;
+}
+
+.fundo_estrelaa{
+  background-color: rgb(246, 170, 28);
+  padding: 2px 15px;
+  border-radius: 4px;
+}
+
+.fundo_estrela > p{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.estrela{
+  position: relative;
+  top: 2px;
+}
+
+.ava_90{
+  font-size: 20px;
+  color: rgb(143, 143, 143);
+}
+
+.nikee{
+  font-size: 18px;
+  color: rgb(102, 102, 102);
+}
+
+.preco_0{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 20px;
+  color: rgb(71, 71, 71);
+  position: relative;
+  top: 15px;
+}
+
+.preco_0 del{
+  font-size: 20px;
+  color: rgb(143, 143, 143);
+}
+
+.preco_sapatoo{
+  font-size: 35px;
+  color: rgb(71, 71, 71);
+}
+
+.descricao_0{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  top: 25px;
+}
+
+.descricao_0 h3{
+  font-size: 18px;
+  color: rgb(143, 143, 143);
+}
+
+.descricao_0 p{
+  font-size: 17px;
+  color:
+  #474747;
+}
+
+.tamanho0{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+  gap: 14px;
+}
+
+.tamanho0 label{
+  font-size: 18px;
+  color: rgb(143, 143, 143);
+}
+
+.numeracao_sapato{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  position: relative;
+  bottom: 4px;
+  left: 20px;
+}
+
+.numeracao_sapato button{
+  padding: 20px;
+  border-style: none;
+  border: solid 2px rgb(143, 143, 143);
+  border-radius: 10px;
+  font-size: 22px;
+  color: #474747;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.numeracao_sapato button:hover{
+  cursor: pointer;
+  background-color: rgb(201, 32, 113);
+  color: white;
+}
+
+.cor_sapato{
+  display: flex;
+  gap: 8px;
+  position: relative;
+  left: 18px;
+  bottom: 3px;
+}
+
+.cor_sapato button{
+  padding: 22px;
+  border-style: none;
+  border-radius: 25px;
+  border: 3px solid white;
+}
+
+#btn_1{
+  background-color: rgb(110, 238, 255);
+}
+
+#btn_2{
+  background-color:rgb(255, 105, 105);
+}
+
+#btn_3{
+  background-color: rgb(93, 93, 93);
+}
+
+#btn_4{
+  background-color:rgb(109, 112, 183);
+}
+
+.btn_cor:hover{
+  cursor: pointer;
+  border: 3px solid #474747;
+}
+
+.btn_comprarr{
+  position: relative;
+  left: 1px;
+  top: 52px;
+  width: 250px;
+  padding: 14px 35px;
+  border-style: none;
+  background-color: rgb(255, 179, 31);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+
+
+}
+

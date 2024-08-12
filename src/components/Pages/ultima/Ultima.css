@@ -1,0 +1,94 @@
+.flex{
+    display: flex;
+}
+
+.container-ofertaP{
+    background-color: #F5F5F5;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+.item-oferta{
+    width: 94.4%;
+    margin-left:70px;
+    padding: 20px;
+}
+
+.item-oferta > h2{
+    font-size: 25px;
+    color: #474747;
+}
+
+.ajustarSeta{
+    gap: 8px;
+    font-size: 18px;
+    color: #C92071;
+}
+
+.item-oferta-sapato{
+    background-color: #F5F5F5;
+}
+
+.fundo_sapato{
+    width: 100px;
+    height: 70px;
+    padding: 153px 149.4px;
+    background-color:white;
+    margin-left: 12px;
+    position: relative;
+    left: 80px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fundo_sapato > p{
+    background-color:yellow;
+    padding: 8px 15px;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.descricao-sapato{
+    flex-direction: column;
+    position: relative;
+    left: 92px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.descricao-sapato > p{
+    color: #666666;
+    font-weight: lighter;
+}
+
+.descricao-sapato > h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.descricao-preco{
+    gap: 8px;
+}
+
+.descricao-preco > p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.descricao-preco > del{
+    font-size: 18px;
+    color: #666666;
+    font-weight: lighter;
+}
+
+.Ajustar-em-linha{
+display: flex;
+flex-direction: row;    
+}
